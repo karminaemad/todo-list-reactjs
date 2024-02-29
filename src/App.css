@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.App{
+    width: 400px;
+    border: solid 2px green;
+    text-align: center;
+    border-radius: 13px;
+    padding: 15px;
+}
+.title{
+    color: green;
+    text-transform: uppercase;
+    font-size: bold;
+    padding: 20px;
+}
+.input-style{
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    border: solid 1px green;
+    padding: 5px;
+}
+.input-style::selection{
+    background-color: green;
+    color: white;
+    border: solid 1px green;
+}
+.input-style:focus{
+    outline: green;
+}
+.btn{
+    background-color: green;
+    border: none;
+    color: white;
+    border-radius: 3px;
+    width: 50px;
+    height: 30px;
+
+}
+.btn:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 35px;
+    cursor: pointer;
+    color: green;
+}
+.content li {
+    list-style:decimal;
+    margin-left: 14px;
+}
+.diffstyle{
+    text-decoration: line-through;
+    color: red;
+}
+span:hover{
+    color: red;
+}
